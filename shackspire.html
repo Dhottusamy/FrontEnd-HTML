@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+*{
+    margin: 0;
+}
+/* .link1:visited,.link1:link,.link1:hover,.link1:active{
+    color: #000000;
+    text-decoration: none;
+}
+.link2:visited,.link2:link,.link2:hover,.link2:active{
+    color: white;
+    text-decoration: none;
+}
+.link3:visited,.link3:link,.link3:hover,.link3:active{
+    text-decoration: none;
+    color: black;
+} */
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 0px 8px rgb(232, 227, 227); 
+}
+.navbar .left-side{
+    width: 40%;
+    padding-left: 100px;
+    position: relative; 
+}
+.right-side{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+}
+.left-side .logo{
+    width: 100px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.right-side span{
+    font-size:  20px;
+    font-weight: 600;
+    margin-right: 40px;
+}
+.banner{
+    background-image:url(./software_testing_services.webp);
+    background-size: 100% 100%;
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.banner .left-side{
+    color: white;
+    width: 40%;
+    margin-left: 150px;
+}
+.banner .left-side h3{
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+.banner .left-side p{
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px; 
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 150px;
+    height: 55px;
+    padding: 18px;
+    border-radius: 8px;
+    background-color: white;
+    color: blue;
+    border: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+ .top{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight:bolder;
+    text-align: center;
+    letter-spacing: normal;
+    padding-top: 60px; 
+}
+ .span1{
+    color: blue;
+}
+.parent{
+     display: flex;
+     gap: 2rem;
+ }
+ .left{
+     height:50%;
+     width: 50%;
+     padding-top: 60px;
+  }
+  #apple{
+     line-height: 40px;
+     display: block;
+     color: blue;
+     font-size: 40px;
+     text-align: right;
+     font-weight: bolder;
+}
+ #orange{
+     line-height: 40px;
+     display: block;
+     color:rgba(0, 0, 0, 0.838);
+     margin-left: 30%;
+     font-size: 40px;
+     text-align: right;
+     font-weight: bold;
+}
+ .banana{
+     text-align: right;
+     font-family:Arial, Helvetica, sans-serif;
+     display: block;
+     margin-left: 15%;
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 28px;
+     letter-spacing: normal;
+     padding-left: 30px;
+     padding-top: 2%;
+    }
+    .right{   
+      background-image: url(./best_qa_companies-new.webp);
+      background-repeat: no-repeat;
+      height: 800px;
+      width: 700px;
+      padding-right: 40px;
+      margin-top: 37px;
+    }
+    .sam{
+      display: flex;
+      flex-direction: row;
+      gap:2rem;
+      justify-content: center;
+      padding-top: 50px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 40px;        
+     }
+    .square {
+      width: 330px;
+      height: 380px;
+      border-radius: 5%;
+      box-sizing: border-box;
+      box-shadow: inset;
+      background-color:white; 
+      box-shadow:0px 0px 15px;
+    }
+    .boxes{
+        background-repeat: no-repeat;
+        border-top-left-radius: 4%;
+        border-top-right-radius: 4%;
+        height: 200px;  
+    }
+    #car{
+        background-image: url(Polaris-New.webp);
+        height: 250px;
+    }
+    #tab{
+        background-image: url(Regression-Testing-both-Mobile-Web-Apps-Case-Study.webp);
+        height: 250px;
+    }
+    #phone{
+        background-image: url(Ooredoo-Case-Study.webp);
+        height: 250px;
+    }
+    #girl{
+        background-image: url(Helping-Deliver-a-Complete-Online-Learning-Experience-Case-Study.webp);
+        height: 250px;
+    }
+    #girlphone{
+        background-image: url(Setting-up-an-Automation-COE-Framework-Case-Study.webp);
+        height: 250px;
+    }
+    #graph{
+        background-image: url(Automated-ETL-Testing-for-Data-Cleaning-Client-Stories.webp);
+        height: 250px;
+    }
+    #handbook{
+        background-image: url(Automation-Testing-for-a-Hotel-Booking-App-Case-Study.webp);
+        height: 250px;
+    }
+    #calendarlap{
+        background-image: url(Automated-Regression-Testing-on-a-Daily-Basis-Client-Story.webp);
+        height: 250px;
+    }
+    .types{
+        color: white;
+        text-align: end;
+        padding: 15px;
+        padding-right: 25px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .same{
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-top: 200px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align:center;
+    }
+    .under{
+        text-align: center;
+        font-size: 18px;
+        padding-top: 30px;
+        color: blue;
+    }
+    #sam1{
+         display: flex;
+         flex-direction: row;
+          gap:2rem;
+          justify-content: center;
+          padding-left: 50px;
+          padding-right: 50px;
+    }
+
+
+
+
+
+
+     #contactform{
+        background-image: url(contact-form-bg.webp);
+        background-repeat: no-repeat;
+        background-position: center;git
+      } 
+        </style>
+    </head>
+    <body>
+        <script>
+            function validate(){
+                var s1=document.submitform.username.value;
+                var s2=document.submitform.email.value;
+                var s3=document.submitform.number.value;
+                var s4=document.submitform.textarea1.value;
+                if(s1!=="" & s2!==""& s3!==""){
+                    document.getElementById("form1").submit();
+                }
+                else{
+                   if(s1==""){
+                      document.getElementById("p1").innerHTML="Enter Your Name";
+                    }
+                   else{
+                      document.getElementById("p1").innerHTML="";
+                    }
+                   if(s2==""){
+                      document.getElementById("p2").innerHTML="Enter Your Email ID";
+                    }
+                   else{
+                      document.getElementById("p2").innerHTML="";
+                    }
+                   if(s3==""){
+                      document.getElementById("p3").innerHTML="Enter Your Phone Number";
+                    }
+                   else{
+                      document.getElementById("p3").innerHTML="";
+                    }
+                    if(s4==""){
+                      document.getElementById("p4").innerHTML="Enter Some Message";
+                    }
+                   else{
+                      document.getElementById("p4").innerHTML="";
+                    }
+                }
+            }
+        </script>
+
+        <div class="navbar">
+            <div class="left-side">
+                <img src="Codoid-Logo.svg" class="logo" />
+            </div>
+            <div class="right-side">
+                <a class="link1" href="https://codoid.com/"><span>Home</span></a>
+                <a class="link1" href="https://codoid.com/about-us/"><span>About us</span></a>
+                <a class="link1" href="https://codoid.com/services/"><span>Services</span></a>
+                <a class="link1" href="https://codoid.com/innovations/"><span>our products</span></a>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="left-side">
+                <p>
+                    It's always best to test.
+                </p>
+                <h3>A QA Company with Grade-A Software Testing Solutions.</h3>
+                <button class="button"><a class="link2" href="https://codoid.com/qa-outsourcing-company/">Read more</a></button>
+            </div>
+        </div>
+            <div class="top"><span class="span1">Quality</span> First </div>
+            <div class="parent">
+                <div class="left">
+                    <p id="apple">A GROWING PRODUCT </p>
+                     <p id="orange">NEEDS A PASSIONATE 
+                     TEAM TO ENSURE QUALITY</p> 
+                    <br>
+                    <p class="banana">
+                       Beginning as a startup in 2012, Codoid has rapidly established itself as one of the TOP QA COMPANIES in the world. 
+                       Codoid is proudly led by QA experts that are passionate about software testing, and Quality Assurance. 
+                       The greater the challenge, the more driven our team becomes. We don’t stop until we’ve achieved our goal of 
+                       delivering quality software.
+                    </p>
+                    <p class="banana">
+                       Our motivation comes from a deep need to learn, explore, and grow—as a team. As we delve into the quality 
+                       assessment of your product, we leave absolutely no stone unturned in ensuring your product meets the needs of the 
+                       end user. Our team is focused on meeting the highest standards, to help you deploy your incredible work.   
+                    </p>
+                    <p class="banana">
+                        Based in the tech hubs of India and Singapore, our clients are global. We work with organizations from fast-growing
+                         Based in the tech hubs of India and Singapore, our clients are global. We work with organizations from fast-growing
+                       startups, to Fortune 500 companies. All of our clients trust Codoid to deliver incredible QA testing, everytime.
+                    </p>
+                </div>
+                <div class="right">
+                </div>
+            </div>
+            <div class="top">
+                <span class="span1">Case</span> Studies </div>
+         <div class="sam">
+              <div class="square">
+                <div id="car" class="boxes">
+                     <p class="types">POLARIS</p>
+                     <p class="same">eLearning Testing for Online Courses</p>
+                     <p class="under">Manufacturing</p></a>
+                  </div> 
+               </div>
+               <div class="square">
+                  <div id="tab" class="boxes">
+                     <p class="types">Steinweg</p>
+                     <p class="same">Regression Testing for a Paperless Mission</p>
+                     <p class="under">Logistics</p></a>
+                  </div>
+                </div>
+               <div class="square" >
+                   <div id="phone" class="boxes">
+                      <p class="types">ooredoo</p>
+                      <p class="same">Mobile App Automation for a Telecom Giant</p>
+                      <p class="under">Telecom</p></a>
+                   </div>
+               </div>
+               <div class="square">
+                   <div id="girl" class="boxes">
+                      <p class="types">CENGAGE</p>
+                      <p class="same">Helping Deliver Seamless Online Learning</p>
+                      <p class="under">E-learning</p></a>
+                  </div>
+               </div>
+          </div>
+          <div id="sam1">
+             <div class="square">
+                   <div id="girlphone" class="boxes">
+                      <p class="types">mobily</p>
+                      <p class="same">Setting up an Automation Coe & Framework</p>
+                      <p class="under">Telecom</p></a>
+                   </div> 
+               </div>
+               <div class="square">
+                <div id="graph" class="boxes">
+                   <p class="types">CENGAGE</p>
+                   <p class="same">Automated ETL Testing for Data Cleaning</p>
+                   <p class="under">E-Learning</p></a>
+                </div>
+              </div>
+             <div class="square">
+                <div id="handbook" class="boxes">
+                    <p class="types">Hotelplan</p>
+                    <p class="same">Automation Testing for a Hote Booking App</p>
+                    <p class="under">Hospitality</p></a>
+                 </div>
+             </div>
+             <div class="square">
+                <div id="calendarlap" class="boxes">
+                    <p class="types">SMARTWAY</p>
+                    <p class="same">Automated Regression Testing on a Daily Basis</p>
+                    <p class="under">Technology</p></a>
+                </div>
+            </div>
+          </div><br><br>
+
+            <div class="contactform">
+                <div class="contact-container">
+                    <div class="form-sec row">
+                        <div class="col-md-7 form8">
+                            <p><span>Talk-to</span> our Experts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+    </body>
+</html>
